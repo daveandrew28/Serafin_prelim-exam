@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left-side{
+    position: absolute;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-left: 8%;
+}
+.right-side{
+    float: right;
+    padding-bottom: 20%;
+    margin-top: 5%;
+    font-size: 15px;
+    margin-right: 8%;
+}
+.lorem2{
+    margin-top: 10%;
+}
+.lorem3{
+    margin-top: 10%;
+}
+.lorem4{
+    margin-top: 10%;
+}
+.lorem6{
+    margin-top: 10%;
+}
+.lorem7{
+    margin-top: 10%;
+}
+.lorem8{
+    margin-top: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+    .left-side {
+        margin-left: 5%;
+        margin-bottom: 90%;
+    }
+    .right-side {
+        margin-left: auto;
+        margin-top: 90%;
+
+    }
+}
